@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("image/b1.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(239, 241, 232);
+    background-image:url(image/b2.avif) ;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(45, 44, 44, 0.1);
+    width: 460px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: hsl(0, 93%, 50%);
+}
+
+.input-group {
+    margin-bottom: 15px;
+    color: black;
+    width: 450px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #100f0f;
+}
+
+input {
+    width: 100%;
+    padding: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 17px 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 105%;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.result {
+    margin-top: 20px;
+}
+.result h3{
+    color: chocolate;
+}
+
+#bmi-result {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#bmi-category {
+    margin-top: 10px;
+    color: #e00eef;
+}
